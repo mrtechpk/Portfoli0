@@ -97,7 +97,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: rgba(21, 52, 230, 0.658);
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -122,6 +122,19 @@ p {
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
+}
+a{
+	font-style: none;
+	color: blue;
+	
+}
+button{
+	width: 150px;
+	align-items: center;
+	background-color: rgba(230, 216, 30, 0.849);
+	padding: 15px;
+	border-style: double;
+	
 }
 #header .nav-list ul a::after {
 	content: attr(data-after);
